@@ -20,3 +20,15 @@ console.log(delNumber); // Saída: 4 - Exibe o elemento removido
 let fruits = ['apple', 'banana', 'orange'];
 let lastFruit = fruits.pop(); // Remove 'orange' e a armazena em lastFruit
 console.log(lastFruit); // Saída: 'orange'
+
+
+//shift: Remove o primeiro elemento de um array e retorna esse elemento, 
+//atualizando os índices dos outros elementos.
+//Exemplo 1
+let numbers = [1, 2, 3, 4];
+let firstNumber = numbers.shift();
+console.log(firstNumber); // Saída: 1
+//Exemplo 2
+let fruits = ['apple', 'banana', 'orange'];
+let primFruit = fruits.shift(); // Remove 'apple' e a armazena em firstFruit
+console.log(primFruit); // Saída: 'apple'
