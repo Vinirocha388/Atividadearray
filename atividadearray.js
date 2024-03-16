@@ -43,3 +43,16 @@ console.log(numbers); // Saída: [1, 2, 3, 4]
 let fruits = ['banana', 'orange'];
 fruits.unshift('apple'); // Adiciona 'apple' ao início do array
 console.log(fruits); // Saída: ['apple', 'banana', 'orange']
+
+
+//concat:Retorna um novo array composto pelos arrays ou valores passados como argumento.
+//Exemplo 1
+let array1 = [1, 2];
+let array2 = [3, 4];
+let concatArray = array1.concat(array2);
+console.log(concatArray); // Saída: [1, 2, 3, 4]
+//Exemplo 2
+let array1 = [1, 2];
+let array2 = [3, 4];
+let concatArray = array1.concat(array2); // Concatena os dois arrays
+console.log(concatArray); // Saída: [1, 2, 3, 4]
