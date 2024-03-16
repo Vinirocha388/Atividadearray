@@ -32,3 +32,14 @@ console.log(firstNumber); // Saída: 1
 let fruits = ['apple', 'banana', 'orange'];
 let primFruit = fruits.shift(); // Remove 'apple' e a armazena em firstFruit
 console.log(primFruit); // Saída: 'apple'
+
+//unshift: Adiciona um ou mais elementos no início de um array
+// e retorna o novo comprimento do array.
+//Exemplo 1
+let numbers = [2, 3, 4];
+numbers.unshift(1);
+console.log(numbers); // Saída: [1, 2, 3, 4]
+//Exemplo 2
+let fruits = ['banana', 'orange'];
+fruits.unshift('apple'); // Adiciona 'apple' ao início do array
+console.log(fruits); // Saída: ['apple', 'banana', 'orange']
