@@ -5,3 +5,7 @@
 let numbers = [1, 2, 3]; // Cria um array com elementos;
 numbers.push(4); // Adiciona o elemento 4 ao final do array;
 console.log(numbers); // Saída: [1, 2, 3, 4] - Exibe o array atualizado;
+//Exemplo 2
+let fruits = ['apple', 'banana'];
+fruits.push('orange'); // Adiciona 'orange' ao final do array
+console.log(fruits); // Saída: ['apple', 'banana', 'orange']
