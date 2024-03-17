@@ -75,10 +75,11 @@ console.log(banaincluida); // Saída: true - Exibe se 'banana' está presente no
 //sort: Classifica os elementos de um array localmente e retorna o array.
 //Exemplo 1
 let numbers = [5, 2, 9, 1, 8]; // Declaração de um array de números
-numbers.sort((a, b) => a - b); // Ordena o array em ordem crescente usando o método sort(), com uma função de comparação que subtrai b de a
+numbers.sort((a, b) => a - b); // Ordena o array em ordem crescente usando o método sort, 
+//com uma função de comparação que subtrai b de a
 console.log(numbers); // Imprime o array ordenado
 //Exemplo 2
 let fruits = ["Banana", "Orange", "Apple", "Mango"]; // Declaração de um array de palavras
 fruits.sort((a, b) => a.comparar(b)); // Ordena o array em ordem alfabética usando o método sort,
-// com uma função de comparação que utiliza localeCompare()
+// com uma função de comparação que utiliza comparar
 console.log(fruits); // Imprime o array ordenado
