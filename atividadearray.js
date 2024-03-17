@@ -116,3 +116,24 @@ console.log(todosMaioresQueZero); // Saída: true - Exibe se todos os números s
 let idades = [30, 25, 40, 35]; // Declara um array de idades
 let todasAcimaDeVinte = idades.every((idade) => idade > 20); // Verifica se todas as idades são maiores que 20
 console.log(todasAcimaDeVinte); // Saída: true - Exibe se todas as idades são maiores que 20
+
+
+
+//SPLICE
+//ADICIONAR
+let numbers = [1, 2, 3, 4, 5];
+// Adiciona os elementos 6 e 7 a partir do índice 3 (posição 4) sem remover nenhum elemento
+numbers.splice(3, 0, 6, 7);
+console.log(numbers); // Saída: [1, 2, 3, 6, 7, 4, 5]
+
+//REMOVER
+let fruits = ['apple', 'banana', 'orange', 'grape', 'kiwi'];
+// Remove 2 elementos a partir do índice 2 (posição 3)
+fruits.splice(2, 2);
+console.log(fruits); // Saída: ['apple', 'banana', 'kiwi']
+
+//SUBSTITUIR
+let colors = ['red', 'green', 'blue', 'yellow'];
+// Substitui 2 elementos a partir do índice 1 (posição 2) pelos elementos 'orange' e 'purple'
+colors.splice(1, 2, 'orange', 'purple');
+console.log(colors); // Saída: ['red', 'orange', 'purple', 'yellow']
