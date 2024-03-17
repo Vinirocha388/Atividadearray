@@ -105,3 +105,14 @@ console.log(numbers); // Saída: [5, 4, 3, 2, 1] - Exibe o array invertido
 let fruits = ['apple', 'banana', 'orange']; // Declara um array de frutas
 fruits.reverse(); // Inverte a ordem dos elementos no array
 console.log(fruits); // Saída: ['orange', 'banana', 'apple'] 
+
+
+//every:Testa se todos os elementos do array passam no teste implementado pela função fornecida.
+//Exemplo 1
+let numeros = [1, 2, 3, 4, 5]; // Declara um array de números
+let todosMaioresQueZero = numeros.every((numero) => numero > 0); // Verifica se todos os números são maiores que zero
+console.log(todosMaioresQueZero); // Saída: true - Exibe se todos os números são maiores que zero
+//Exemplo 2
+let idades = [30, 25, 40, 35]; // Declara um array de idades
+let todasAcimaDeVinte = idades.every((idade) => idade > 20); // Verifica se todas as idades são maiores que 20
+console.log(todasAcimaDeVinte); // Saída: true - Exibe se todas as idades são maiores que 20
