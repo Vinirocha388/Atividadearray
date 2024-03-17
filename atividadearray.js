@@ -94,3 +94,14 @@ console.log(joinString); // Saída: 'apple, banana, orange' - Exibe a string res
 let numbers = [1, 2, 3, 4, 5]; // Declara um array de números
 let joinString = numbers.join('-'); // Junta os elementos do array usando hífen como separador
 console.log(joinString); // Saída: '1-2-3-4-5' - Exibe a string resultante
+
+
+//reverse:Inverte a ordem dos elementos de um array in-place e retorna o array invertido
+//Exemplo 1
+let numbers = [1, 2, 3, 4, 5]; // Declara um array de números
+numbers.reverse(); // Inverte a ordem dos elementos no array
+console.log(numbers); // Saída: [5, 4, 3, 2, 1] - Exibe o array invertido
+//Exemplo 2
+let fruits = ['apple', 'banana', 'orange']; // Declara um array de frutas
+fruits.reverse(); // Inverte a ordem dos elementos no array
+console.log(fruits); // Saída: ['orange', 'banana', 'apple'] 
