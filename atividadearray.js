@@ -52,7 +52,3 @@ let array2 = [3, 4];
 let concatArray = array1.concat(array2);
 console.log(concatArray); // Saída: [1, 2, 3, 4]
 //Exemplo 2
-let array1 = [1, 2];
-let array2 = [3, 4];
-let concatArray = array1.concat(array2); // Concatena os dois arrays
-console.log(concatArray); // Saída: [1, 2, 3, 4]
