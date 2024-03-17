@@ -14,8 +14,8 @@ console.log(fruits); // Saída: ['apple', 'banana', 'orange']
 //POP:Remove o último elemento de um array e retorna esse elemento.
 //Exemplo 1
 let numbers = [1, 2, 3, 4]; // Cria um array com elementos
-let delNumber = numbers.pop(); // Remove o último elemento do array e o armazena
-console.log(delNumber); // Saída: 4 - Exibe o elemento removido
+let delNumbers = numbers.pop(); // Remove o último elemento do array e o armazena
+console.log(delNumbers); // Saída: 4 - Exibe o elemento removido
 //Exemplo 2
 let fruits = ['apple', 'banana', 'orange'];
 let lastFruit = fruits.pop(); // Remove 'orange' e a armazena em lastFruit
@@ -26,8 +26,8 @@ console.log(lastFruit); // Saída: 'orange'
 //atualizando os índices dos outros elementos.
 //Exemplo 1
 let numbers = [1, 2, 3, 4];
-let firstNumber = numbers.shift();
-console.log(firstNumber); // Saída: 1
+let firstNumbers = numbers.shift();
+console.log(firstNumbers); // Saída: 1
 //Exemplo 2
 let fruits = ['apple', 'banana', 'orange'];
 let primFruit = fruits.shift(); // Remove 'apple' e a armazena em firstFruit
@@ -83,3 +83,14 @@ let fruits = ["Banana", "Orange", "Apple", "Mango"]; // Declaração de um array
 fruits.sort((a, b) => a.comparar(b)); // Ordena o array em ordem alfabética usando o método sort,
 // com uma função de comparação que utiliza comparar
 console.log(fruits); // Imprime o array ordenado
+
+
+//join: Une todos os elementos de um array em uma string
+//Exemplo 1
+let fruits = ['apple', 'banana', 'orange']; // Declara um array de frutas
+let joinString = fruits.join(', '); // Junta os elementos do array usando vírgula e espaço como separadores
+console.log(joinString); // Saída: 'apple, banana, orange' - Exibe a string resultante
+//Exemplo 2
+let numbers = [1, 2, 3, 4, 5]; // Declara um array de números
+let joinString = numbers.join('-'); // Junta os elementos do array usando hífen como separador
+console.log(joinString); // Saída: '1-2-3-4-5' - Exibe a string resultante
