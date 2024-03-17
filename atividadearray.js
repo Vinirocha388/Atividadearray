@@ -57,3 +57,14 @@ let p2 = "mundo!";
 let p3 = " Como você está?";
 let concatenatedString = p1.concat(", ", p2, p3); // dou o comando para concat
 console.log(concatpala); // Saída: "Olá, mundo! Como você está?"
+
+//includes: Determina se um array contém um determinado elemento 
+//e retorna true ou false conforme apropriado.
+//Exemplo 1
+let numbers = [1, 2, 3, 4, 5]; // Cria um array de números
+let tresincluido= numbers.includes(3); // Verifica se o número 3 está presente no array
+console.log(tresincluido); // Saída: true - Exibe se o número 3 está presente no array
+//Exemplo 2
+let fruits = ['apple', 'banana', 'orange']; // Cria um array de frutas
+let bananaincluida = fruits.includes('banana'); // Verifica se 'banana' está presente no array
+console.log(banaincluida); // Saída: true - Exibe se 'banana' está presente no array
