@@ -55,6 +55,5 @@ console.log(concatArray); // Saída: [1, 2, 3, 4]
 let p1 = "Olá"; // declaro itens
 let p2 = "mundo!"; 
 let p3 = " Como você está?";
-
 let concatenatedString = p1.concat(", ", p2, p3); // dou o comando para concat
 console.log(concatpala); // Saída: "Olá, mundo! Como você está?"
