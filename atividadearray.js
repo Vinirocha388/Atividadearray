@@ -33,6 +33,7 @@ let fruits = ['apple', 'banana', 'orange'];
 let primFruit = fruits.shift(); // Remove 'apple' e a armazena em firstFruit
 console.log(primFruit); // Saída: 'apple'
 
+
 //unshift: Adiciona um ou mais elementos no início de um array
 // e retorna o novo comprimento do array.
 //Exemplo 1
@@ -58,6 +59,7 @@ let p3 = " Como você está?";
 let concatenatedString = p1.concat(", ", p2, p3); // dou o comando para concat
 console.log(concatpala); // Saída: "Olá, mundo! Como você está?"
 
+
 //includes: Determina se um array contém um determinado elemento 
 //e retorna true ou false conforme apropriado.
 //Exemplo 1
@@ -68,3 +70,15 @@ console.log(tresincluido); // Saída: true - Exibe se o número 3 está presente
 let fruits = ['apple', 'banana', 'orange']; // Cria um array de frutas
 let bananaincluida = fruits.includes('banana'); // Verifica se 'banana' está presente no array
 console.log(banaincluida); // Saída: true - Exibe se 'banana' está presente no array
+
+
+//sort: Classifica os elementos de um array localmente e retorna o array.
+//Exemplo 1
+let numbers = [5, 2, 9, 1, 8]; // Declaração de um array de números
+numbers.sort((a, b) => a - b); // Ordena o array em ordem crescente usando o método sort(), com uma função de comparação que subtrai b de a
+console.log(numbers); // Imprime o array ordenado
+//Exemplo 2
+let fruits = ["Banana", "Orange", "Apple", "Mango"]; // Declaração de um array de palavras
+fruits.sort((a, b) => a.comparar(b)); // Ordena o array em ordem alfabética usando o método sort,
+// com uma função de comparação que utiliza localeCompare()
+console.log(fruits); // Imprime o array ordenado
