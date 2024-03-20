@@ -18,7 +18,6 @@ console.log("vogais encontradas:", arrayVolgais.toString());
 console.log("total de vogais:" + arrayVolgais.length)
 
 //for consoante
-
 let consoantes = ["b", "c", "d", "f", "g", "h", "j", "k", "l", "m", "n", "p", "q", "r", "s", "t", "v", "w", "x", "z"];
 
 texto = texto.toLocaleLowerCase();
@@ -36,7 +35,6 @@ console.log("consoantes encontradas:", arrayConsoantes.toString());
 console.log("total de consoantes: " + arrayConsoantes.length);
 
 //for espaço
-
 let espaço = [" "];
 
 texto = texto.toLocaleLowerCase();
