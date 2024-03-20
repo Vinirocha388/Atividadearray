@@ -48,5 +48,4 @@ for (let i = 0; i < arrayEspaço.length; i++) {
     }
 }
 
-console.log("espaço encontradas:", arrayespaço.toString());
-console.log("total de espaço: " + arrayespaço.length);
+console.log("total de espaço: " + arrayespaço.length); 
